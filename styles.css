@@ -50,6 +50,29 @@ body {
     color: #333; /* Gris oscuro */
 }
 
+.section {
+    margin-bottom: 40px;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    flex: 1 1 calc(33.333% - 10px);
+    max-width: calc(33.333% - 10px);
+    height: auto;
+}
+
 form {
     max-width: 600px;
     margin: 20px 0;
